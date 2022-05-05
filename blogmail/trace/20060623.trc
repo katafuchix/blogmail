@@ -1,0 +1,39 @@
+Classname : org.gjt.mm.mysql.Driver
+ConnectionString : jdbc:mysql://localhost:3306/nucleus?useUnicode=true&characterEncoding=SJIS
+QueryString : SELECT * FROM nucleus_item
+Classname : org.gjt.mm.mysql.Driver
+ConnectionString : jdbc:mysql://localhost:3306/nucleus?useUnicode=true&characterEncoding=SJIS
+QueryString : SELECT * FROM nucleus_item
+Classname : org.gjt.mm.mysql.Driver
+ConnectionString : jdbc:mysql://localhost:3306/nucleus?useUnicode=true&characterEncoding=SJIS
+createStatement();
+QueryString : SELECT * FROM nucleus_item
+DBclose :  close OK 
+DBdisconnect : true
+Classname : org.gjt.mm.mysql.Driver
+ConnectionString : jdbc:mysql://localhost:3306/nucleus?useUnicode=true&characterEncoding=SJIS
+createStatement();
+prepareStatement();
+QueryString :  INSERT INTO nucleus_item  (ITITLE, IBODY, IMORE, IBLOG, IAUTHOR, ITIME, ICLOSED, IDRAFT, ICAT)  VALUES  ('Fw: ', '', '', 1, 1, '2006-06-23 17:23:35', 0, 0, 1)
+DBclose :  close OK 
+DBdisconnect : true
+Classname : org.gjt.mm.mysql.Driver
+ConnectionString : jdbc:mysql://localhost:3306/nucleus?useUnicode=true&characterEncoding=SJIS
+createStatement();
+prepareStatement();
+QueryString :  INSERT INTO nucleus_item  (ITITLE, IBODY, IMORE, IBLOG, IAUTHOR, ITIME, ICLOSED, IDRAFT, ICAT)  VALUES  ('Fw: ', '
+Forwarded by katafuchi <katafuchi@affinitynation.co.jp>
+----------------------- Original Message -----------------------
+ From:    pinkygirls.princess@docomo.ne.jp
+ To:      katafuchi@affinitynation.co.jp
+ Date:    Wed, 21 Jun 2006 22:43:27 +0900 (JST)
+ Subject: 
+----
+
+☆６月21日☆
+最近お仕事でレッスンはじめました★今日はうまれて初めての発声練習をしました!!複式呼吸から始まってあめんぼあかいなに挑戦しました♪ちょっとアナウンサー気分(*´∀｀*)放課後からだったから終わるのは夜遅くてヘトヘトになっちゃった。。だけどぅちに帰ったらマミーがエビフライつくってくれていて癒されました☆。・゜★・゜☆゜。声が大きく出せるように毎日練習するぞ～っ↑↑♪"
+--------------------- Original Message Ends --------------------
+
+', '', 1, 1, '2006-06-23 17:31:06', 0, 0, 1)
+DBclose :  close OK 
+DBdisconnect : true
